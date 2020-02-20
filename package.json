@@ -1,19 +1,17 @@
 {
-  "name": "ruzeller-h",
+  "name": "js-fundamentals-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ruzelyanet/ruzeller-h.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ruzelyanet/ruzeller-h/issues"
-  },
-  "homepage": "https://github.com/ruzelyanet/ruzeller-h#readme"
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
 }
