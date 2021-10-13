@@ -1,8 +1,9 @@
-var socket = io();
+var socket = io()
+
 
 var form = document.querySelector('form');
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function (e) {
   e.preventDefault();
   var input = document.querySelector('#message');
   var text = input.value;
@@ -10,7 +11,7 @@ form.addEventListener('submit', function(e) {
   input.value = '';
 });
 
-socket.on('message', function(text) {
+socket.on('message', function (text) {
   if (!text) {
     return;
   }
